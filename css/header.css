@@ -1,0 +1,32 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation__list {
+  display: flex;
+  
+  list-style-type: none;
+}
+
+.header-navigation__list a {
+  color: #2f281e;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1em;
+
+}
+
+.header-navigation li:not(:last-child) {
+  margin-right: 54px;
+}
+
+li a{
+  transition:border-bottom 1s linear;
+}
